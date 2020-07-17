@@ -1,0 +1,11 @@
+<main class = "content">
+  {{>content}}
+<section id = "posts">
+  {{#each this}}
+	{{#if city}}
+	{{>item}}
+	{{/if}}
+  {{/each}}
+</section>
+{{>sell}}
+</main>
